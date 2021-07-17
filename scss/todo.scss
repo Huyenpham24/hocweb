@@ -1,0 +1,75 @@
+
+body,
+html,
+input,
+button{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #292929;
+}
+
+.todolist{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+    h2{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    form{
+        .input-group{
+            display: flex;
+            input.input-todo{
+                padding: 10px;
+                border: 1px solid #292929;
+                border-top-left-radius: 3px;
+                border-bottom-left-radius: 3px;
+                flex-grow: 1;
+            }
+            button.btn-add{
+                padding: 0px 30px;
+                background: #292929;
+                color: white;
+                border-top-right-radius: 3px;
+                border-bottom-right-radius: 3px;
+            }
+
+        }
+        .list{
+            li{
+            display: flex;
+            align-items: center;
+                &.checked{
+                text-decoration: line-through; 
+                .content{
+                    opacity: 0.3;
+                }
+                .delete{
+                    opacity: 0.3;
+                }
+            }
+            .check{
+                margin-right: 6px;
+            }
+            .delete{
+                margin-left: auto;
+                cursor: pointer;
+                width: 20px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: red;
+                color: white;
+            }
+            }
+
+        }
+    }
+}

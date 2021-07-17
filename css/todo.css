@@ -1,0 +1,80 @@
+body,
+html,
+input,
+button {
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	display: flex;
+	height: 100vh;
+	background: #292929;
+	align-items: center;
+	justify-content: center;
+}
+
+.todolist {
+	width: 500px;
+	padding: 20px;
+	border-radius: 5px;
+	background: white;
+}
+
+.todolist h2 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.todolist form .input-group {
+	display: flex;
+}
+
+.todolist form .input-group input.input-todo {
+	padding: 10px;
+	border: 1px solid #292929;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	flex-grow: 1;
+}
+
+.todolist form .input-group button.btn-add {
+	padding: 0 30px;
+	color: white;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background: #292929;
+}
+
+.todolist form .list li {
+	display: flex;
+	align-items: center;
+}
+
+.todolist form .list li.checked {
+	text-decoration: line-through;
+}
+
+.todolist form .list li.checked .content {
+	opacity: .3;
+}
+
+.todolist form .list li.checked .delete {
+	opacity: .3;
+}
+
+.todolist form .list li .check {
+	margin-right: 6px;
+}
+
+.todolist form .list li .delete {
+	display: flex;
+	width: 20px;
+	height: 20px;
+	margin-left: auto;
+	cursor: pointer;
+	color: white;
+	background: red;
+	align-items: center;
+	justify-content: center;
+}
+

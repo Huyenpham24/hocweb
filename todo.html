@@ -14,13 +14,31 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Slab&display=swap">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-  <div class="arrow"></div>
+<div class="todolist">
+  <form action="">
+    <h2>Todo App</h2>
+    <div class="input-group">
+      <input class="input-todo" type="text" placeholder="Add todo">
+      <button class="btn-add">Add</button>
+    </div>
+    <ul class="list">
+      <li>
+        <input type="checkbox">
+        <span>Shopping</span>
+        <span class="delete">x</span>
+      </li>
+      <li>
+        <input type="checkbox">
+        <span>Play soccer</span>
+        <span class="delete">x</span>
+      </li>
+    </ul>
+  </form>
+</div>
 </body>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
-<script src="./js/main.js"></script>
+<script src="./js/todo.js"></script>
+
 </html>

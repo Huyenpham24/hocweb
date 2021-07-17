@@ -24,6 +24,15 @@ gulp.task("scss", function () {
     .pipe(gulp.dest("./css"));
 });
 
+gulp.task("css", function () {
+    return gulp
+      .src(["css/**/*.css"])
+  });
+  gulp.task("js", function () {
+    return gulp
+      .src(["js/**/*.js"])
+  });
+
 gulp.task("serve", function () {
   // Serve files from the root of this project
   browserSync.init({
@@ -33,7 +42,7 @@ gulp.task("serve", function () {
   });
 
   gulp.watch("scss/**/*.scss", gulp.series("scss")).on("change", reload);
-  gulp.watch("css/**/*.css").on("change", reload);
-  gulp.watch("js/**/*.js").on("change", reload);
+  gulp.watch("css/**/*.css", gulp.series("css")).on("change", reload);
+  gulp.watch("js/**/*.js", gulp.series("js")).on("change", reload);
   gulp.watch("*.html").on("change", reload);
 });

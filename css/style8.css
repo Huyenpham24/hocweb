@@ -1,0 +1,70 @@
+body {
+	background-color: #2980b9;
+}
+
+.nav-menu {
+	display: flex;
+	padding-right: 450px;
+	padding-left: 450px;
+	justify-content: space-between;
+}
+
+.nav-menu li {
+	border: 1px solid white;
+}
+
+.nav-menu li a {
+	font-size: 16px;
+	padding: 20px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.nav-menu li a:hover {
+	color: #2c3e50;
+}
+
+.item {
+	font-size: 0;
+	position: relative;
+	display: flex;
+}
+
+.item img {
+	width: 100%;
+}
+
+.images {
+	padding: 40px;
+}
+
+.hinh {
+	position: relative;
+}
+
+.hinh .hov {
+	font-size: 16px;
+	position: absolute;
+	top: 0;
+	width: 400px;
+	height: 300px;
+	transition: all 1s;
+	opacity: 0;
+	background-color: rgba(0, 0, 0, .65);
+}
+
+.hinh .hov:hover {
+	opacity: 1;
+}
+
+.hinh .text {
+	position: absolute;
+	transform: translate(45px, 100px);
+	text-align: center;
+	color: white;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+

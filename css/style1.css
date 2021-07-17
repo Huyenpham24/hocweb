@@ -1,0 +1,39 @@
+.new {
+	width: 500px;
+	margin: 20px;
+	border: 1px solid black;
+}
+
+.new img {
+	width: 100%;
+}
+
+.new.first h2 {
+	padding: 10px;
+}
+
+.new.first p {
+	padding: 10px;
+}
+
+.new.second h2 {
+	padding: 10px;
+}
+
+.new.second p {
+	padding: 10px;
+	color: wheat;
+	background: gray;
+}
+
+.new.third h2 {
+	margin-top: 20px;
+	padding: 10px;
+	color: wheat;
+	background: gray;
+}
+
+.new.third p {
+	padding: 10px;
+}
+

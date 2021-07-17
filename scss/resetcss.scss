@@ -1,0 +1,19 @@
+// loai bo css margin va pading mac dinh
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;// chieu dai cua mot the se bao gom border & padding
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input{
+    border: none;
+    outline: none;
+}
+button{
+    border: none;
+}

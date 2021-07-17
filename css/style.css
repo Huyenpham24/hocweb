@@ -1,5 +1,21 @@
-h1 {
-	color: #cac3c3;
-	background-color: yellow;
+.arrow {
+	position: relative;
+	width: 100px;
+	height: 5px;
+	margin: 50px;
+	background-color: black;
+}
+
+.arrow::after {
+	position: absolute;
+	top: -5px;
+	right: 0;
+	display: block;
+	width: 10px;
+	height: 10px;
+	content: '';
+	transform: rotate(45deg);
+	border-top: 5px solid black;
+	border-right: 5px solid black;
 }
 

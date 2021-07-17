@@ -1,0 +1,46 @@
+footer {
+	width: 700px;
+	padding: 20px;
+	background-color: black;
+}
+
+footer.flex {
+	display: flex;
+}
+
+footer.flex .about {
+	width: 60%;
+	margin-right: 20px;
+}
+
+footer.flex .about p {
+	color: #666;
+}
+
+footer.flex .quick {
+	width: 40%;
+}
+
+footer h2 {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	color: white;
+	border-bottom: 1px solid #666;
+}
+
+footer .link {
+	justify-content: space-between;
+}
+
+footer .link li {
+	margin-bottom: 10px;
+}
+
+footer .link a {
+	color: #666;
+}
+
+.flex {
+	display: flex;
+}
+

@@ -1,0 +1,63 @@
+@import "_flex";
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://wp.w3layouts.com/industries/wp-content/themes/industries/assets/images/banner.png);
+}
+header{
+    .menu{
+        padding: 20px 31px;
+    }
+    .logo{
+        h1{
+            font-size: 30px;
+            i{
+                color: #f9580e;
+            }
+            a{
+                color: black;
+            }
+        }
+    }
+    ul{
+        li{
+            padding: 0px 12px;
+            a{
+                font-size: 16px;
+                color: black;
+                font-weight: bold;
+                text-transform: uppercase;
+                padding: 6px 0px;
+            }
+        }
+    }
+    input{
+        border-radius: 30px;
+        padding: 15px 35px 15px 14px;
+        &::-webkit-input-placeholder{
+            color: #060606;
+            font-size: 15px;
+        } 
+    }
+    .search{
+        position: relative;
+    }
+    .search-icon{
+        color: #f9580e;
+        position: absolute;
+        right: 0px;
+        font-size: 15px;
+        padding: 8px 12px 8px 2px;
+    }
+    .mo{
+        margin: 0px 0px 0px 10px;
+        font-size: 18px;
+        transform: rotate(-20deg);
+        color: white;
+
+    }
+
+}

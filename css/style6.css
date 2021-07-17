@@ -1,0 +1,221 @@
+body {
+	font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+
+.container {
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: black;
+}
+
+header .container {
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .container .text {
+	transition: all .5s;
+}
+
+header .container .text li {
+	padding: 28px 17px;
+	color: white;
+}
+
+header .container .text li a {
+	font-weight: bold;
+	color: white;
+}
+
+header .container .text li a:hover {
+	color: #1ed760;
+}
+
+header .image {
+	width: 132px;
+	height: 40px;
+}
+
+header img {
+	width: 100%;
+}
+
+.flex {
+	display: flex;
+}
+
+.main {
+	width: 100%;
+	height: 850px;
+	background-color: #2941ab;
+	background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+	background-position: 46% 4%;
+	background-size: 175%;
+}
+
+.main .txt {
+	color: #1ed760;
+}
+
+.main .title {
+	font-size: 156px;
+	line-height: 1.1;
+	width: 1020px;
+	margin: auto;
+	padding-top: 200px;
+	padding-bottom: 40px;
+	text-align: center;
+	letter-spacing: -10px;
+	word-spacing: -10px;
+}
+
+.main .word {
+	width: 800px;
+	margin: auto;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.main .button {
+	font-size: 14px;
+	font-weight: bold;
+	display: flex;
+	width: 216px;
+	height: 50px;
+	margin: auto;
+	transition: all .05s;
+	border-radius: 25px;
+	background-color: #1ed760;
+	align-items: center;
+	justify-content: center;
+}
+
+.main .button:hover {
+	transform: scale(1.05);
+}
+
+.main .button p {
+	color: #2941ab;
+}
+
+.main .button a {
+	padding: 17px 30px;
+}
+
+.image {
+	width: 132px;
+	height: 40px;
+}
+
+footer {
+	background-color: black;
+}
+
+footer .container {
+	margin: auto;
+	padding-top: 100px;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+footer .container li {
+	margin: 20px 0;
+	transition: all .5s;
+}
+
+footer .container li:hover a {
+	color: #1ed760;
+}
+
+footer .container li a {
+	color: white;
+}
+
+footer .container li.gra {
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	color: #919496;
+}
+
+footer img {
+	width: 100%;
+}
+
+footer .category > ul {
+	width: 160px;
+}
+
+footer .ic {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	margin: 8px;
+	transition: all .5s;
+	border-radius: 50%;
+	background-color: #222326;
+}
+
+footer .ic:hover i {
+	color: #1ed760;
+}
+
+footer .ic i {
+	font-size: 25px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+}
+
+footer .ic i.ins {
+	transform: translate(66%, 50%);
+}
+
+footer .ic i.twi {
+	transform: translate(55%, 50%);
+}
+
+footer .ic i.fb {
+	transform: translate(110%, 50%);
+}
+
+.last {
+	justify-content: space-between;
+}
+
+.last > ul li {
+	transition: all .5s;
+}
+
+.last > ul li a {
+	font-size: 12px;
+	margin-right: 24px;
+	color: #919496;
+}
+
+.last > ul li a:hover {
+	color: #1ed760;
+}
+
+.last .ri {
+	font-size: 12px;
+	color: #919496;
+}
+
+.last .ri a {
+	transition: all .05s;
+	color: #919496;
+}
+
+.last .ri a:hover {
+	color: #1ed760;
+}
+
+.last .ri .sp {
+	padding: 10px 0 0 30px;
+}
+
